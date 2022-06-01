@@ -1,16 +1,30 @@
 div {
     font-family: 'Roboto', sans-serif;
 }
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
 
 .header {
     display: flex;
+    flex-direction: column;
+    flex: 1;
     background-color: #1F2937;
-    padding: 8px;
+    padding: 0 96px;
+    height: 40%;
 }
 
 .logo {
+    display: flex;
+    justify-content: space-between;
     font-size: 24px;
     color: #F9FAF8;
+    padding: 8px;
+    font-weight: 700;
 }
 
 ul {
@@ -21,28 +35,14 @@ ul {
     color: #E5E7EB;
     margin-top: 0;
     padding: 8px;
+    font-weight: 400;
 }
 
 .main-text {
     font-size: 48px;
     font-weight: 800;
     color: #F9FAF8;
-    width:450px;
-    
-}
-
-.main-left {
-    display: flex;
-    flex-direction: column;
-    margin-left: 48px;
-}
-
-.main-right {
-    display: flex;
-    flex-direction: column;
-    margin-left: auto;
-    align-items: flex-end;
-    margin-right:48px;
+    width:450px;  
 }
 
 button {
@@ -59,13 +59,33 @@ button {
 }
 
 .imgp {
+    display: flex;
     width:400px;
     height: 200px;
     background-color: gray;
+    margin-left: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 .main-sub {
     font-size: 18px;
     color: #E5E7EB;
     width:450px;
+}
+
+.left-mid {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mid {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
