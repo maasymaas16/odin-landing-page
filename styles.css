@@ -15,7 +15,7 @@ body {
     flex: 1;
     background-color: #1F2937;
     padding: 0 96px;
-    height: 40%;
+    height: 30%;
 }
 
 .logo {
@@ -53,7 +53,7 @@ button {
     text-align: center;
     border-radius: 6px;
     color: white;
-    padding: 4px 24px;
+    padding: 6px 24px;
     font-weight:600;
     margin: 8px 0;
 }
@@ -88,4 +88,16 @@ button {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    height: 30%;
+}
+
+.info-head {
+    font-weight: 900;
+    color: #1F2937;
+    font-size: 36px;
 }
