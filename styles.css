@@ -93,7 +93,7 @@ button {
 .information {
     display: flex;
     flex-direction: column;
-    height: 30%;
+    height: 25%;
     align-items: center;
 }
 
@@ -123,6 +123,33 @@ button {
     border-color: #3882F6;
     border-radius: 16px;
     padding: 8px;
+}
+
+.quote-cont {
+    display: flex;
+    flex-direction: column;
+    height: 25%;
+    background-color: #e5e7eb;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    display: flex;
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1F2937;
+    width: 70%;
+    height: 50%;
+}
+
+.author {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 700;
+    width: 64%;
+    font-size: 18px;
 }
 
 
