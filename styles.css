@@ -152,4 +152,51 @@ button {
     font-size: 18px;
 }
 
+.call {
+    height: 15%;
+}
+
+.footer {
+    display: flex;
+    background-color:#1F2937 ;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    height: 5%;
+    font-size: 14px;
+}
+
+.call {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-cont {
+    display: flex;
+    flex-direction: column;
+    background-color: #3882F6;
+    border-radius: 8px;
+    height: 50%;
+    width: 70%;
+    justify-content: center;
+}
+
+.call-head {
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.call-subtext { 
+    color: white;
+    font-size: 13px;
+}
+
+.call-button {
+    border-style: solid;
+    border-color: white;
+    border-radius: 4px;
+}
 
