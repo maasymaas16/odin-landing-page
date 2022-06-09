@@ -152,6 +152,7 @@ button {
     background-color: #e5e7eb;
     justify-content: center;
     align-items: center;
+    height: 24%;
 }
 
 .quote {
@@ -166,6 +167,7 @@ button {
 }
 
 .author {
+    display: flex;
     justify-content: flex-end;
     font-weight: 700;
     width: 64%;
