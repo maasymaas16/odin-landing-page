@@ -15,8 +15,8 @@ body {
     flex: 1;
     background-color: #1F2937;
     padding: 0 96px;
-    height: 30%;
 }
+/* First section CSS */
 
 .logo {
     display: flex;
@@ -60,8 +60,8 @@ button {
 
 .imgp {
     display: flex;
-    width:400px;
-    height: 200px;
+    width:420px;
+    height: 190px;
     background-color: gray;
     margin-left: auto;
     color: white;
@@ -88,13 +88,16 @@ button {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 75px;
 }
+
+/*Second Section CSS */
 
 .information {
     display: flex;
     flex-direction: column;
-    height: 25%;
     align-items: center;
+    margin-bottom: 75px;
 }
 
 .info-head {
@@ -103,6 +106,19 @@ button {
     font-size: 36px;
     padding: 8px;
     margin: 32px;
+}
+
+.placeholders {
+    display: flex;
+    gap: 48px;
+}
+
+.info-placeholder {
+    display: flex;
+    flex-direction: column;
+    width: 115px;
+    text-align: center;
+    font-size: 12px;
 }
 
 .blue {
@@ -118,12 +134,13 @@ button {
 .bluebox {
     display: flex;
     height:120px;
-    width: 120px;
+    width: 115px;
     border-style: solid;
     border-color: #3882F6;
     border-radius: 16px;
-    padding: 8px;
 }
+
+/* Quote section CSS */
 
 .quote-cont {
     display: flex;
@@ -152,19 +169,10 @@ button {
     font-size: 18px;
 }
 
+/* Call to action section CSS */
+
 .call {
     height: 15%;
-}
-
-.footer {
-    display: flex;
-    background-color:#1F2937 ;
-    color: white;
-    justify-content: center;
-    align-items: center;
-    margin-top: auto;
-    height: 5%;
-    font-size: 14px;
 }
 
 .call {
@@ -198,5 +206,18 @@ button {
     border-style: solid;
     border-color: white;
     border-radius: 4px;
+}
+
+/* footer CSS */
+
+.footer {
+    display: flex;
+    background-color:#1F2937 ;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    height: 5%;
+    font-size: 14px;
 }
 
