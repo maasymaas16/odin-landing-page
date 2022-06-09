@@ -1,13 +1,18 @@
 div {
     font-family: 'Roboto', sans-serif;
 }
-html {
+
+html, body {
+    margin: 0;
     height: 100%;
 }
 
 body {
-    height: 100%;
+    display: flex;
+    flex-direction: column;
 }
+
+/* First section CSS */
 
 .header {
     display: flex;
@@ -16,7 +21,6 @@ body {
     background-color: #1F2937;
     padding: 0 96px;
 }
-/* First section CSS */
 
 .logo {
     display: flex;
@@ -145,7 +149,6 @@ button {
 .quote-cont {
     display: flex;
     flex-direction: column;
-    height: 25%;
     background-color: #e5e7eb;
     justify-content: center;
     align-items: center;
@@ -159,6 +162,7 @@ button {
     color: #1F2937;
     width: 70%;
     height: 50%;
+    margin: 50px 0;
 }
 
 .author {
@@ -172,10 +176,6 @@ button {
 /* Call to action section CSS */
 
 .call {
-    height: 15%;
-}
-
-.call {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -186,9 +186,10 @@ button {
     flex-direction: column;
     background-color: #3882F6;
     border-radius: 8px;
-    height: 50%;
+    height: auto;
     width: 70%;
     justify-content: center;
+    margin: 55px 0;
 }
 
 .call-head {
@@ -210,14 +211,19 @@ button {
 
 /* footer CSS */
 
-.footer {
+.foot-cont {
+    flex-grow: 1;
     display: flex;
     background-color:#1F2937 ;
+    justify-content: center;
+    align-items: center;
+    min-height: auto;
+}
+
+.footer {
     color: white;
     justify-content: center;
     align-items: center;
-    margin-top: auto;
-    height: 5%;
     font-size: 14px;
 }
 
